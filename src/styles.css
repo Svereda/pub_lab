@@ -1,0 +1,29 @@
+/* Стилі для меню зверху */
+.menu {
+    list-style-type: none; /* Відключаємо маркери списку */
+    margin: 0; /* Видаляємо зовнішні відступи */
+    padding: 0; /* Видаляємо внутрішні відступи */
+    display: flex; /* Встановлюємо flex контейнер */
+    background-color: #727272; /* Колір фону меню */
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Відступ між пунктами меню */
+  }
+  
+  .menu li:last-child {
+    margin-right: 0; /* Відступ останнього пункта меню */
+  }
+  
+  .menu a {
+    text-decoration: none; /* Забороняємо підчеркування для посилань */
+    color: #fff; /* Колір тексту */
+  }
+  
+  .menu a:hover {
+    text-decoration: underline; /* Підчеркнути текст при наведенні */
+  }
+
+  .p{
+    color: aqua;
+  }
