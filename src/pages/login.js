@@ -1,4 +1,5 @@
 import React from 'react';
+import './style_pages.css';
 
 function Vhid() {
   return (
