@@ -11,18 +11,25 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <ul className="menu">
-            <li>
-              <Link to="/golovna">Головна</Link>
-            </li>
-            <li>
-              <Link to="/pubs">паби</Link>
-            </li>
-            <li><Link to="/forum">форум</Link></li>
-            <li><Link to="/login">увійти</Link></li>
-          </ul>
-        </nav>
+        <div className="menu">
+          <nav>
+            <ul>
+              <li>
+                <Link to="/golovna">Головна</Link>
+              </li>
+              <li>
+                <Link to="/pubs">паби</Link>
+              </li>
+              <li>
+                <Link to="/forum">форум</Link>
+              </li>
+              <li>
+                <Link to="/login">увійти</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
 
         <Routes>
           <Route path="/pubs" element={<Pubs />} />
