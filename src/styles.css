@@ -1,29 +1,56 @@
-/* Стилі для меню зверху */
-.menu {
-    list-style-type: none; /* Відключаємо маркери списку */
-    margin: 0; /* Видаляємо зовнішні відступи */
-    padding: 0; /* Видаляємо внутрішні відступи */
-    display: flex; /* Встановлюємо flex контейнер */
-    background-color: #727272; /* Колір фону меню */
-  }
-  
-  .menu li {
-    margin-right: 20px; /* Відступ між пунктами меню */
-  }
-  
-  .menu li:last-child {
-    margin-right: 0; /* Відступ останнього пункта меню */
-  }
-  
-  .menu a {
-    text-decoration: none; /* Забороняємо підчеркування для посилань */
-    color: #fff; /* Колір тексту */
-  }
-  
-  .menu a:hover {
-    text-decoration: underline; /* Підчеркнути текст при наведенні */
-  }
+body{
+  margin: 0;
 
-  .p{
-    color: aqua;
-  }
+}
+.logo{
+  width: 100px; /* Змініть на потрібний розмір */
+  height: 100px; /* Змініть на потрібний розмір */
+
+}
+
+.container{
+  margin:0px 120px ;
+}
+ .header{
+  background-image: url(/src/image/backgraund.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+
+ .header-line{
+  padding-top: 5px;
+  display: flex;
+  background-color: #212529;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px -120px; ;
+
+  
+  
+
+ }
+
+.nav-item{
+  color: white;
+  text-decoration: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-right: 75px;
+  transition: color 0.1s linear;
+}
+
+.nav-item:hover{
+  color: darkgray;
+}
+
+
+
+.card{
+  margin-right: 25px;
+}
+
+
+
