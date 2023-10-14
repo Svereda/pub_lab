@@ -12,6 +12,8 @@ function App() {
   return (
     <Router>
       <div className="App">
+        
+        
         <div className="header">
           <div className="container">
             <div className="header-line">
@@ -41,6 +43,11 @@ function App() {
           <Route path="/golovna" element={<Golovna />} />
           <Route path="/" element={<Navigate to="/golovna" />} />
         </Routes>
+
+        <footer className="footer">
+          Copyright © Svereda
+        </footer>
+
       </div>
     </Router>
   );

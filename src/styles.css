@@ -1,6 +1,14 @@
 body{
   margin: 0;
+  overflow-y: scroll; /* Дозволяє прокручувати контент, але приховує вертикальний скролбар */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
 
+
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* Ширина вертикального скролбару */
 }
 .logo{
   width: 100px; /* Змініть на потрібний розмір */
@@ -13,11 +21,20 @@ body{
 }
  .header{
   background-image: url(/src/image/backgraund.jpg);
-  height: 100vh;
-  background-repeat: no-repeat;
+  /*filter: blur(2px);*/
+  height: 120vh;
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  flex-grow: 1;
+  /*добавити ефкт блур на бекграунд*/
+  
   
  }
+ 
 
  .header-line{
   padding-top: 5px;
@@ -35,7 +52,7 @@ body{
 .nav-item{
   color: white;
   text-decoration: none;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-weight: 600;
   font-size: 30px;
   margin-right: 75px;
@@ -52,5 +69,15 @@ body{
   margin-right: 25px;
 }
 
-
+.footer {
+  background-color: #212529;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  left: 0;
+  font-family: 'Pacifico', cursive;
+  
+}
 
