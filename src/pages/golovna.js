@@ -82,9 +82,32 @@ class Golovna extends Component {
             </div>
           </div>
         </div>
+        <div className='borders'>
+          <div className="col-container">
+            <div className="col">
+              <h2>Instagram</h2>
+              <a href="https://www.instagram.com/kresko.o/" class="fa fa-instagram"></a>
+              
+            </div>
 
+            <div className="col">
+              <h2>Facebook</h2>
+              <a href="https://www.facebook.com/profile.php?id=100011292553694" class="fa fa-facebook"></a>
+              
+            </div>
 
+            <div className="col">
+              <h2>YouTube</h2>
+              <a href="https://www.youtube.com/channel/UCob5fmxZgQhBY82EoOoWSOw" class="fa fa-youtube"></a>
+              
+            </div>
+          </div>
+
+        </div>
       </div>
+
+
+      
       
     );
   }

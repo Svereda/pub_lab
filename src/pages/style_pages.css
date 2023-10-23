@@ -102,11 +102,7 @@
 
 /*пошук вигляд*/
 
-.poshyk{
 
-
-  
-}
 
 .search {
   width: 100%;
@@ -143,3 +139,49 @@
   left: 50%;
   transform: translate(-50%, -50%);
   }
+
+  .borders{
+    /*margin-bottom: 70px;*/
+    
+  }
+  .col-container {
+    display: table;
+    width: 100%;
+    background-color: #181b1f;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: white;
+    
+}
+.col {
+    display: table-cell;
+    padding: 16px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
