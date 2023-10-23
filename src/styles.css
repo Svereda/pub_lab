@@ -19,21 +19,17 @@ body::-webkit-scrollbar {
 .container{
   margin:0px 120px ;
 }
- .header{
+.header {
   background-image: url(/src/image/backgraund.jpg);
-  /*filter: blur(2px);*/
-  height: 120vh;
-  /*background-repeat: no-repeat;
-  background-size: cover;*/
+  background-attachment: fixed; /* Делаем фон статичным */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  height: 120vh;
   width: 100%;
   flex-grow: 1;
-  /*добавити ефкт блур на бекграунд*/
-  
-  
- }
+}
+
  
 
  .header-line{
