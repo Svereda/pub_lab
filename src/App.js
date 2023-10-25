@@ -7,9 +7,12 @@ import Golovna from "./pages/golovna";
 import './styles.css';
 import logotyp from './image/logo.png'
 import login from './image/login.png'
+import PubAllInfo from './pages/pub_all_info';
+import RegistrationForm from './pages/new_user';
 
 function App() {
   return (
+    
     <Router>
       <div className="App">
         
@@ -42,14 +45,19 @@ function App() {
           <Route path="/login" element={<Vhid />} />
           <Route path="/golovna" element={<Golovna />} />
           <Route path="/" element={<Navigate to="/golovna" />} />
+          <Route path="/pub_all_info" element={<PubAllInfo/>} />
+          <Route path="/new_user" element={<RegistrationForm/>} />
         </Routes>
+        
 
-        <footer className="footer">
-          Copyright © Svereda
-        </footer>
+
 
       </div>
+      {/* <footer className="footer">
+        Copyright © someone
+      </footer> */}
     </Router>
+    
   );
 }
 

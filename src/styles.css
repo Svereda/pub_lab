@@ -3,8 +3,15 @@ body{
   overflow-y: scroll; /* Дозволяє прокручувати контент, але приховує вертикальний скролбар */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer, Edge */
-
-
+  background-image: url(/src/image/backgraund.jpg);
+  background-attachment: fixed; /* Делаем фон статичным */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 120vh;
+  width: 100%;
+  flex-grow: 1;
+  bottom:50px ;
 }
 
 body::-webkit-scrollbar {
@@ -20,11 +27,7 @@ body::-webkit-scrollbar {
   margin:0px 120px ;
 }
 .header {
-  background-image: url(/src/image/backgraund.jpg);
-  background-attachment: fixed; /* Делаем фон статичным */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+
   height: 120vh;
   width: 100%;
   flex-grow: 1;
@@ -70,10 +73,13 @@ body::-webkit-scrollbar {
   color: white;
   padding: 25px;
   text-align: center;
-  position: static;
   bottom: 0;
   left: 0;
   font-family: 'Pacifico', cursive;
+  display: center;
+  position:fixed;
+  width: 100%;
+
   
 }
 

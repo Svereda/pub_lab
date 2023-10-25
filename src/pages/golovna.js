@@ -77,7 +77,7 @@ class Golovna extends Component {
               <input type="text" className="searchTerm" placeholder="Пошук..." />
               <button type="submit" className="searchButton">
                 go
-                <i className="fa fa-search"></i>
+                
               </button>
             </div>
           </div>
