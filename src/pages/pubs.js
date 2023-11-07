@@ -53,6 +53,7 @@ function Pubs() {
               <label>Назва:</label>
               <input
                 type="text"
+                className='custom-input'
                 name="name"
                 value={newPubInfo.name}
                 onChange={handleInputChange}
@@ -62,6 +63,7 @@ function Pubs() {
               <label>Номер телефону:</label>
               <input
                 type="text"
+                className='custom-input'
                 name="phoneNumber"
                 value={newPubInfo.phoneNumber}
                 onChange={handleInputChange}
@@ -71,6 +73,7 @@ function Pubs() {
               <label>Місто:</label>
               <input
                 type="text"
+                className='custom-input'
                 name="city"
                 value={newPubInfo.city}
                 onChange={handleInputChange}
@@ -80,6 +83,7 @@ function Pubs() {
               <label>Адреса:</label>
               <input
                 type="text"
+                className='custom-input'
                 name="address"
                 value={newPubInfo.address}
                 onChange={handleInputChange}

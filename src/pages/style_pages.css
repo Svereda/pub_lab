@@ -496,3 +496,54 @@ margin-left: 120px;
   color: white;
 }
 
+
+
+
+/* Додайте ці стилі до вашого CSS файлу (style_pages.css) або іншого файлу стилів */
+
+/* Стилі для кнопки "Добавити паб" */
+.center-button {
+  font-family: 'Pacifico', cursive;
+  display: block;
+  margin: 0 auto; /* Це вирівнює кнопку по центру сторінки */
+  background-color: #212529; /* Фоновий колір кнопки */
+  color: #fff; /* Колір тексту на кнопці */
+  padding: 20px 20px; /* Зазначте бажаний padding */
+  border: none;
+  border-radius: 5px; /* Закруглені кути кнопки */
+  cursor: pointer;
+  color: white;
+}
+
+.center-button:hover {
+  background-color: #0056b3; /* Колір кнопки при наведенні */
+}
+
+/* Стилі для блоку, який відкривається після натискання кнопки */
+.add-pub-form {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  background-color: #212529; /* Фоновий колір блоку */
+  padding: 20px; /* Зазначте бажаний padding */
+  border-radius: 10px; /* Закруглені кути блоку */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тінь для блоку */
+  max-width: 600px; /* Максимальна ширина блоку */
+  margin: 0 auto; /* Вирівнювання по центру сторінки */
+}
+
+/* Додаткові стилі можна додати за потребою */
+.custom-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+}
